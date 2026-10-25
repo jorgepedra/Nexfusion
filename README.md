@@ -4,7 +4,7 @@ Estamos produzindo um jogo de tiro divertido, aguardem enquanto fazemos a demo!
 
 ## 🛠️ Status do Desenvolvimento
 
-![Demo em Produção](https://github.com/jorgepedra/Nexfusion/issues/1#issue-6028572624)
+![Demo em Produção]<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b6619fa2-ed29-4a5f-98bf-573dd286ae10" />
 
 ---
 
