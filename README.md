@@ -12,7 +12,6 @@ Estamos produzindo um jogo de tiro divertido, aguardem enquanto fazemos a demo!
 
 | Propriedade | Detalhes |
 | :--- | :--- |
-| **📅 Publicado** | 17 horas atrás |
 | **⚙️ Status** | Protótipo |
 | **👥 Autor** | Grupo NexfusionBR |
 | **🕹️ Gênero** | Ação |
