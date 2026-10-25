@@ -10,6 +10,9 @@
 
 ## 📋 Mais sobre o projeto
 
+O jogo tem como inspiração o **Vampire Survival**, e é por esse motivo que vamos ter mecânicas de muitas hordas atacando, e tiros para todo lado!
+<img width="220" height="124" alt="Image" src="https://github.com/user-attachments/assets/3edd1b88-e2cb-4118-859f-6bb695b6fb34" />
+
 | Propriedade | Detalhes |
 | :--- | :--- |
 | **⚙️ Status** | Protótipo |
