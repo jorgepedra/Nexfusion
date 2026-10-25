@@ -1,0 +1,264 @@
+[gd_scene format=3 uid="uid://cmn1tldciw6xy"]
+
+[ext_resource type="Texture2D" uid="uid://dtnvwbn0f3out" path="res://sprites/player/guns/arma.png" id="1_4ytvr"]
+[ext_resource type="Script" uid="uid://cvuq8txkpa2lb" path="res://scripts/menu.gd" id="1_g3eks"]
+[ext_resource type="Texture2D" uid="uid://d2ws5iohu0knl" path="res://sprites/player/guns/arma_tiro.png" id="2_g3eks"]
+[ext_resource type="Texture2D" uid="uid://bvtwn7ljqmu85" path="res://sprites/player/player.png" id="3_v86rl"]
+[ext_resource type="Texture2D" uid="uid://cciux1fgup5bi" path="res://sprites/player/player walk.png" id="4_13sgg"]
+[ext_resource type="Script" uid="uid://ceewu0xx6txeq" path="res://scripts/gun.gd" id="5_i6lef"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ogo8m"]
+atlas = ExtResource("2_g3eks")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8i8hp"]
+atlas = ExtResource("2_g3eks")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gsaar"]
+atlas = ExtResource("2_g3eks")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_drirx"]
+atlas = ExtResource("2_g3eks")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qbbxf"]
+atlas = ExtResource("2_g3eks")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t8n7k"]
+atlas = ExtResource("2_g3eks")
+region = Rect2(320, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1b3iq"]
+atlas = ExtResource("3_v86rl")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k05ng"]
+atlas = ExtResource("3_v86rl")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0c0ry"]
+atlas = ExtResource("3_v86rl")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4sjka"]
+atlas = ExtResource("3_v86rl")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y6f35"]
+atlas = ExtResource("4_13sgg")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_avosf"]
+atlas = ExtResource("4_13sgg")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wa8a0"]
+atlas = ExtResource("4_13sgg")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k3sjr"]
+atlas = ExtResource("4_13sgg")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_70i5f"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_4ytvr")
+}],
+"loop": 1,
+"name": &"Gun",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ogo8m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8i8hp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gsaar")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_drirx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qbbxf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t8n7k")
+}],
+"loop": 0,
+"name": &"Gun Fire",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1b3iq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k05ng")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0c0ry")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4sjka")
+}],
+"loop": 1,
+"name": &"Idle",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y6f35")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_avosf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wa8a0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k3sjr")
+}],
+"loop": 1,
+"name": &"Walk",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mj5lg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_4ytvr")
+}],
+"loop": 1,
+"name": &"Gun",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ogo8m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8i8hp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gsaar")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_drirx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qbbxf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t8n7k")
+}],
+"loop": 0,
+"name": &"Gun Fire",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1b3iq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k05ng")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0c0ry")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4sjka")
+}],
+"loop": 1,
+"name": &"Idle",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y6f35")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_avosf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wa8a0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k3sjr")
+}],
+"loop": 1,
+"name": &"Walk",
+"speed": 5.0
+}]
+
+[node name="menu" type="Control" unique_id=1573410123]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_g3eks")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1315558424]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -357.0
+offset_top = -249.0
+offset_right = -9.0
+offset_bottom = -127.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_constants/separation = 16
+
+[node name="comecar" type="Button" parent="VBoxContainer" unique_id=2085298397]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "Começar"
+
+[node name="sair" type="Button" parent="VBoxContainer" unique_id=268650212]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "Sair"
+
+[node name="player" type="AnimatedSprite2D" parent="." unique_id=1194270659]
+position = Vector2(280, 232)
+scale = Vector2(4.279297, 2.6640625)
+sprite_frames = SubResource("SpriteFrames_70i5f")
+animation = &"Idle"
+autoplay = "Idle"
+
+[node name="gun" type="AnimatedSprite2D" parent="player" unique_id=229078418]
+position = Vector2(58.18712, -4.129039)
+scale = Vector2(1.0278338, 1.0672196)
+sprite_frames = SubResource("SpriteFrames_mj5lg")
+animation = &"Gun"
+script = ExtResource("5_i6lef")
+
+[node name="titulo" type="Label" parent="." unique_id=686479371]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 96.0
+offset_top = -174.0
+offset_right = 479.0
+offset_bottom = -129.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 32
+text = "Nexfusion - Carga Volátil"

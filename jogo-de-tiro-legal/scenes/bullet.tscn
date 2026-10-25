@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dwvn4rfrogloe"]
+
+[ext_resource type="Script" uid="uid://drkv02hswxfax" path="res://scripts/bullet.gd" id="1_y25gk"]
+[ext_resource type="Texture2D" uid="uid://bs6mrpykv45yh" path="res://sprites/player/guns/project.png" id="2_l5glv"]
+
+[node name="bullet" type="Area2D" unique_id=251535389]
+script = ExtResource("1_y25gk")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1478771954]
+texture = ExtResource("2_l5glv")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." unique_id=912766066]
