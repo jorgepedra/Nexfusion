@@ -1,4 +1,4 @@
-# 🚀 Projeto NexfusionBR
+# 🚀 Projeto Nexfusion-Carga volátil
 
  Um jogo onde você é um cientista preso no seu próprio laboratório, e precisa sobreviver a hordas de mutantes zumbis,  e seu único meio de defesa é uma pistola! Mas felizmente, não uma qualquer! Você usa seu conhecimento na área da ciência para modifica-la, utilizando elementos químicos como munição, e EXPLODINDO TUDO!!!
 
