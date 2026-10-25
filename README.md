@@ -1,6 +1,6 @@
 # 🚀 Projeto NexfusionBR
 
-Estamos produzindo um jogo de tiro divertido, aguardem enquanto fazemos a demo!
+ Um jogo onde você é um cientista preso no seu próprio laboratório, e precisa sobreviver a hordas de mutantes zumbis,  e seu único meio de defesa é uma pistola! Mas felizmente, não uma qualquer! Você usa seu conhecimento na área da ciência para modifica-la, utilizando elementos químicos como munição, e EXPLODINDO TUDO!!!
 
 ## 🛠️ Status do Desenvolvimento
 
@@ -15,5 +15,5 @@ Estamos produzindo um jogo de tiro divertido, aguardem enquanto fazemos a demo!
 | **⚙️ Status** | Protótipo |
 | **👥 Autor** | Grupo NexfusionBR |
 | **🕹️ Gênero** | Ação |
-| **🏷️ Etiquetas** | 2D, Indie, Pixel Art, Roguelite, Um jogador |
+| **🏷️ Etiquetas** | 2D, Indie, Pixel Art, Bullet-Hell, Survivor-like, Um jogador |
 | **🤖 Divulgação de IA** | Código assistido por IA |
