@@ -14,7 +14,7 @@ O jogo tem como inspiração o **Vampire Survival**, e é por esse motivo que va
 
 <div align="center">
 
-<img width="220" height="124" alt="Image" src="https://github.com/user-attachments/assets/3edd1b88-e2cb-4118-859f-6bb695b6fb34" />
+<img width="728" height="408" alt="Image" src="https://github.com/user-attachments/assets/3aaa7702-7500-4411-a0e6-5292c40e27ae" />
 
 </div>
 
