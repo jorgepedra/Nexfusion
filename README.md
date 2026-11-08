@@ -25,3 +25,10 @@ O jogo tem como inspiração o **Vampire Survival**, e é por esse motivo que va
 | **🕹️ Gênero** | Ação |
 | **🏷️ Etiquetas** | 2D, Indie, Pixel Art, Bullet-Hell, Survivor-like, Um jogador |
 | **🤖 Divulgação de IA** | Código assistido por IA |
+
+<div>
+ 
+## Nosso grupo também está no ITCH.IO:
+https://nexfusion.itch.io/
+
+</div>
