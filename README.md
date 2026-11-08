@@ -27,10 +27,6 @@ O jogo tem como inspiração o **Vampire Survival**, e é por esse motivo que va
 | **🤖 Divulgação de IA** | Código assistido por IA |
 
 ---
-
-<div>
- 
 ## Nosso grupo também está no ITCH.IO:
 https://nexfusion.itch.io/
 
-</div>
