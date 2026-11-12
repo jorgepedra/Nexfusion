@@ -1,84 +1,47 @@
-# 🚀 Projeto Nexfusion - Carga Volátil
+🚀 Projeto Nexfusion - Carga Volátil
 
-Um jogo de ação 2D onde você é um cientista preso no seu próprio laboratório e precisa sobreviver a hordas de mutantes zumbis. Seu único meio de defesa é uma pistola — mas não uma qualquer! Você usa seu conhecimento científico para modificá-la, utilizando elementos químicos como munição para **EXPLODIR TUDO!**
+Um jogo de ação 2D onde você é um cientista preso em seu próprio laboratório e precisa sobreviver a hordas de zumbis mutantes. Seu único meio de defesa é uma pistola — mas não uma qualquer! Você usa seu conhecimento científico para modificá-la, utilizando elementos químicos como munição para acabar com tudo!
 
-Inspirado em **Vampire Survivors**, o foco é enfrentar hordas frenéticas atacando de todos os lados enquanto combina ciência e poder de fogo para sobreviver.
+Inspirado em Vampire Survivors, ULTRAKILL e Seraph's Last Stand , o foco é enfrentar hordas frenéticas atacando de todos os lados enquanto combina ciência e poder de fogo para sobreviver.
 
----
+📋 Ficha Técnica
 
-## 📋 Ficha Técnica
+Propriedade	Detalhes
+⚙️ Status	Protótipo / Demo
+👥 Autor	Grupo NexfusionBR
+🕹️ Gênero	Ação
+🏷️ Etiquetas	2D, Indie, Pixel Art, Bullet-Hell, Survivor-like, Um jogador
+🤖 Divulgação de IA	Código assistido por IA
+🌐 Itch.io	nexfusion.itch.io
+🎯 O que já funciona (Versão Demo)
 
-| Propriedade | Detalhes |
-| :--- | :--- |
-| **⚙️ Status** | Protótipo / Demo |
-| **👥 Autor** | Grupo NexfusionBR |
-| **🕹️ Gênero** | Ação |
-| **🏷️ Etiquetas** | 2D, Indie, Pixel Art, Bullet-Hell, Survivor-like, Um jogador |
-| **🤖 Divulgação de IA** | Código assistido por IA |
-| **🌐 Itch.io** | [nexfusion.itch.io](https://nexfusion.itch.io/) |
+Arma inicial já está funcionando, ela ainda é fraca para hordas maiores, mas já estamos pensando em sistemas de upgrades.
 
----
+Inimigo inicial finalizado, o que ele é não foi classificado ainda, mas sua mecânica é visível no jogo.
 
-## 🎯 O que já funciona (Versão Demo)
+Pontuação: o jogo tem um sistema de pontuação básico na demo, sendo eles:
+F = 0 | D = 100 | C = 250 | B = 500 | A = 750  | S = 1000
+S+ = 1250 | S++ = 1500 | S+++ = 1750 | P = 2000
 
-* **Sobrevivência Agressiva:** A vida máxima vai até `200`, mas valores acima de `100` decaem com o tempo, incentivando o jogador a eliminar mutantes constantemente para recuperar vida.
-* **Sistema de Ranking Dinâmico (`F` até `P`):** A HUD muda de cor gradualmente conforme a pontuação sobe (`F` a `S+++`) e ativa um efeito arco-íris brilhante ao atingir o rank **`P`** (`2000+` pontos).
-* **Combate e Hordas:** Inimigos surgem ao redor das bordas da arena (`1280x720`) e atacam com investidas telegrafadas (saltos que atravessam outros inimigos no ar).
-* **Game Feel:** Efeitos elásticos (*squash & stretch*) nos personagens, tremor de câmera (*camera shake*) e partículas persistentes no chão.
 
----
 
-## 🎮 Como Jogar (Demo)
+💡 Ideias Futuras & Planejamento
 
-1. Acesse a aba **[Releases](../../releases)** aqui no GitHub (ou nossa página no **[Itch.io](https://nexfusion.itch.io/)**) e baixe a versão demo mais recente.
-2. Extraia o arquivo `.zip` em uma pasta de sua preferência.
-3. Execute o jogo para iniciar.
+🛒 Sistema de Loja e Moedas Elementais
 
-*(Caso queira abrir o código-fonte: importe o arquivo `project.godot` na **Godot 4.x** e pressione **`F5`**).*
+Inimigos Elementais: Cada tipo de inimigo representará um elemento químico, influenciando suas habilidades e ataques.
+Moedas e Upgrades: Ao derrotar inimigos, o jogador coleta moedas (elementais ou uma moeda universal, em definição) para comprar novas armas e melhorias.
+📈 Evolução do Sistema de Pontuação e Rank
 
----
+Multiplicador de Recompensas: A nota alcançada na partida multiplicará os ganhos de moedas (ex: Rank A = 1,5x , Rank S++ = 1,7x , e assim por diante).
+Pontuação Dinâmica: Atualmente em fase de testes com pontos fixos por abate. Futuramente incluirá bônus por abates múltiplos (duplo, triplo) e deliberações na pontuação ao sofrer dano.
+🧪 Elementos Químicos e Efeitos de Munição
 
-## 💡 Ideias Futuras & Planejamento
+Armas: Para não dar spoilers sobre as armas, o máximo que vamos falar é sobre como elas funcionarão.  Sendo cada arma tendo uma habilidade de um elemento químico diferente, sendo a principal que esta na demo, a de tungstênio, sendo sua habilidade perfurar os inimigos.
+👹 Bosses e Progressão de Fases
 
-### 🛒 Sistema de Loja e Moedas Elementais
-* **Inimigos Elementais:** Cada tipo de inimigo representará um elemento químico, influenciando suas habilidades e ataques.
-* **Moedas e Upgrades:** Ao derrotar inimigos, o jogador coleta moedas (elementais ou uma moeda universal, em definição) para comprar novas armas e melhorias.
-  * *Design de Armas:* Caso cada elemento tenha sua própria moeda, as armas desbloqueadas terão relação direta com o elemento do inimigo derrotado. Caso a moeda seja universal, os inimigos terão elementos variados e a loja será livre.
+Após sobreviver a uma determinada quantidade de hordas, surgirá um Chefe temático com ataques baseados em um elemento específico.
+Derrotar o chefe desbloqueia a próxima fase, apresentando novos cenários e tipos de inimigos.
+🎵 Interface e Áudio
 
-### 📈 Evolução do Sistema de Pontuação e Rank
-* **Multiplicador de Recompensas:** A nota alcançada na partida multiplicará os ganhos de moedas (ex: **Rank A = 1.5x**, **Rank S++ = 1.7x**, e assim por diante).
-* **Pontuação Dinâmica:** Atualmente em fase de testes com pontos fixos por abate. Futuramente incluirá bônus por abates múltiplos (duplo, triplo) e penalidades na pontuação ao sofrer dano.
-
-### 🧪 Elementos Químicos e Efeitos de Munição
-Conceitos de armas e habilidades inspirados em reações químicas reais:
-
-* **Combustão e Explosão**
-  * **Fósforo Branco (`P`):** Incendeia instantaneamente em contato com o ar, causando dano contínuo de fogo e iluminando áreas escuras.
-  * **Sódio (`Na`) / Potássio (`K`):** Reagem violentamente com a água, gerando explosões massivas em inimigos molhados, sob chuva ou em poças.
-  * **Magnésio (`Mg`):** Gera um clarão branco intenso no impacto, atuando como munição cegante (*flashbang*) que atordoa os inimigos.
-  * **Césio (`Cs`):** Explode ao entrar em contato com qualquer traço de umidade corporal ou ambiental, funcionando como munição de fragmentação.
-
-* **Gelo e Controle de Grupo**
-  * **Nitrogênio Líquido (`N`):** Congela o alvo no impacto, reduzindo sua velocidade e tornando sua armadura quebradiça para o próximo disparo.
-  * **Hélio Superfluido (`He`):** Resfria instantaneamente mecanismos e armas inimigas, fazendo com que travem ou superaqueçam ao tentar atirar.
-
-* **Corrosão e Toxicidade**
-  * **Flúor (`F`):** Altamente reativo, derrete escudos de energia e atravessa armaduras pesadas por corrosão.
-  * **Mercúrio (`Hg`):** Projétil líquido encapsulado que se espalha no impacto, aplicando envenenamento lento e reduzindo a precisão do alvo.
-  * **Arsênio (`As`):** Aplica dano tóxico silencioso que bloqueia a regeneração de vida por alguns segundos.
-  * **Cloro (`Cl`):** Libera uma nuvem de gás tóxico no impacto, ideal para controle de área e para forçar inimigos a saírem de cobertura.
-
-* **Eletricidade e Magnetismo**
-  * **Cobre (`Cu`) / Prata (`Ag`):** Condutores extremos que fazem a descarga elétrica saltar para inimigos próximos (especialmente em alvos molhados ou metálicos).
-  * **Neodímio (`Nd`):** Cria um campo magnético no local do impacto, atraindo disparos seguintes ou desarmando inimigos próximos.
-
-* **Impacto Pesado e Perfuração**
-  * **Tungstênio (`W`):** Munição ultradensa e resistente ao calor que atravessa paredes, coberturas e múltiplos inimigos em linha reta.
-  * **Urânio Empobrecido (`U`):** Perfura blindagens pesadas ganhando penetração conforme a velocidade do disparo e deixa um rastro leve de radiação.
-
-### 👹 Bosses e Progressão de Fases
-* Após sobreviver a uma determinada quantidade de hordas, surgirá um **Chefe (Boss)** temático com ataques baseados em um elemento específico.
-* Derrotar o chefe desbloqueia a próxima fase, introduzindo novos cenários e tipos inéditos de inimigos.
-
-### 🎵 Interface e Áudio
-* **Menu Principal e Configurações:** Serão implementados assim que o jogo contar com uma variedade maior de inimigos, além de trilha sonora e efeitos sonoros (SFX).
+Menu Principal e Configurações: Serão implementados assim que o jogo conte com uma variedade maior de inimigos, além de trilha sonora e efeitos sonoros (SFX).
