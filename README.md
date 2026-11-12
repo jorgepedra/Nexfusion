@@ -4,9 +4,9 @@ Um jogo de ação 2D misturado com aprendizado de Química! Você assume o papel
 
 Seu único meio de defesa é uma pistola — mas não uma qualquer! Você utiliza seu conhecimento científico para modificá-la, usando elementos químicos como munição para acabar com tudo pelo caminho. Inspirado em *Vampire Survivors*, *ULTRAKILL* e *Seraph's Last Stand*, o foco é enfrentar ondas frenéticas atacando de todos os lados enquanto combina ciência e poder de fogo para sobreviver.
 
+---
 
-## DOWNLOAD AQUI !
-[DEMO-NEXFUSION](https://github.com/jorgepedra/Nexfusion/releases/tag/Demonstra%C3%A7%C3%B5es)
+**DOWNLOAD AQUI** | [DEMO-NEXFUSION](https://github.com/jorgepedra/Nexfusion/releases/tag/Demonstra%C3%A7%C3%B5es)
 
 ---
 
