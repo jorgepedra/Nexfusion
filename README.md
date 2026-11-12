@@ -22,7 +22,9 @@ Seu único meio de defesa é uma pistola — mas não uma qualquer! Você utiliz
 ## 🎯 O que já funciona (Versão Demo)
 
 * **Arma Inicial (Tungstênio):** Já está funcional no jogo. Atualmente ela é mais fraca contra hordas maiores, mas já estamos planejando sistemas de upgrades para ela.
+<img width="640" height="360" alt="Gravar_2026_11_12_15_35_18_13" src="https://github.com/user-attachments/assets/a7ba7fd9-bd67-492a-983f-d8a9c2ae45ab" />
 * **Inimigo Inicial:** Comportamento e mecânica finalizados e visíveis na gameplay (sua classificação química oficial ainda está em definição).
+
 * **Sistema de Pontuação (Ranks):** O jogo já conta com uma tabela básica de classificação por pontos na demo:
 
 | Rank | Pontuação Necessária | Rank | Pontuação Necessária |
