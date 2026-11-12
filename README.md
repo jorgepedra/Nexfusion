@@ -1,3 +1,5 @@
+<img width="3840" height="2160" alt="banner" src="https://github.com/user-attachments/assets/fd21c710-650b-4ad6-ba54-34c25e0b744f" />
+
 # 🚀 Projeto Nexfusion - Carga Volátil
 
 Um jogo de ação 2D misturado com aprendizado de Química! Você assume o papel de um cientista preso em seu próprio laboratório e precisa sobreviver a hordas de zumbis mutantes. 
