@@ -34,6 +34,7 @@ Seu único meio de defesa é uma pistola — mas não uma qualquer! Você utiliz
 | **C** | `250` | **S++** | `1500` |
 | **B** | `500` | **S+++** | `1750` |
 | **A** | `750` | **P** | `2000` |
+<img width="854" height="480" alt="1112 (1)-Cover" src="https://github.com/user-attachments/assets/6b52fb9c-c13f-4e6f-a01c-3921711bf22e" />
 
 ---
 
