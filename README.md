@@ -1,12 +1,27 @@
-# 🎮 Arena Shooter 2D — Godot 4
+# 🚀 Projeto Nexfusion - Carga Volátil
 
-Um jogo de ação e sobrevivência em arena 2D (*top-down shooter*) desenvolvido na **Godot Engine 4** com **GDScript**. O jogador enfrenta hordas crescentes de inimigos em um combate frenético, buscando manter sua vida alta e alcançar a classificação máxima.
+Um jogo de ação 2D onde você é um cientista preso no seu próprio laboratório e precisa sobreviver a hordas de mutantes zumbis. Seu único meio de defesa é uma pistola — mas não uma qualquer! Você usa seu conhecimento científico para modificá-la, utilizando elementos químicos como munição para **EXPLODIR TUDO!**
+
+Inspirado em **Vampire Survivors**, o foco é enfrentar hordas frenéticas atacando de todos os lados enquanto combina ciência e poder de fogo para sobreviver.
 
 ---
 
-## 🎯 Sobre o Projeto (Versão Demo)
+## 📋 Ficha Técnica
 
-* **Sobrevivência Agressiva:** A vida máxima vai até `200`, mas valores acima de `100` decaem com o tempo, incentivando o jogador a eliminar inimigos constantemente para recuperar vida.
+| Propriedade | Detalhes |
+| :--- | :--- |
+| **⚙️ Status** | Protótipo / Demo |
+| **👥 Autor** | Grupo NexfusionBR |
+| **🕹️ Gênero** | Ação |
+| **🏷️ Etiquetas** | 2D, Indie, Pixel Art, Bullet-Hell, Survivor-like, Um jogador |
+| **🤖 Divulgação de IA** | Código assistido por IA |
+| **🌐 Itch.io** | [nexfusion.itch.io](https://nexfusion.itch.io/) |
+
+---
+
+## 🎯 O que já funciona (Versão Demo)
+
+* **Sobrevivência Agressiva:** A vida máxima vai até `200`, mas valores acima de `100` decaem com o tempo, incentivando o jogador a eliminar mutantes constantemente para recuperar vida.
 * **Sistema de Ranking Dinâmico (`F` até `P`):** A HUD muda de cor gradualmente conforme a pontuação sobe (`F` a `S+++`) e ativa um efeito arco-íris brilhante ao atingir o rank **`P`** (`2000+` pontos).
 * **Combate e Hordas:** Inimigos surgem ao redor das bordas da arena (`1280x720`) e atacam com investidas telegrafadas (saltos que atravessam outros inimigos no ar).
 * **Game Feel:** Efeitos elásticos (*squash & stretch*) nos personagens, tremor de câmera (*camera shake*) e partículas persistentes no chão.
@@ -15,11 +30,11 @@ Um jogo de ação e sobrevivência em arena 2D (*top-down shooter*) desenvolvido
 
 ## 🎮 Como Jogar (Demo)
 
-1. Acesse a aba **[Releases](../../releases)** aqui no GitHub e baixe o arquivo `.zip` da versão demo mais recente.
-2. Extraia o conteúdo em uma pasta de sua preferência.
-3. Execute o arquivo do jogo para iniciar.
+1. Acesse a aba **[Releases](../../releases)** aqui no GitHub (ou nossa página no **[Itch.io](https://nexfusion.itch.io/)**) e baixe a versão demo mais recente.
+2. Extraia o arquivo `.zip` em uma pasta de sua preferência.
+3. Execute o jogo para iniciar.
 
-*(Caso queira rodar ou modificar o código-fonte: abra o arquivo `project.godot` na **Godot 4.x** e pressione **`F5`**).*
+*(Caso queira abrir o código-fonte: importe o arquivo `project.godot` na **Godot 4.x** e pressione **`F5`**).*
 
 ---
 
